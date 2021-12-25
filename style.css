@@ -21,3 +21,46 @@ body {
   .card h4{
     font-size: 18px;
   }
+
+  #quoteText::before{
+    font-family:Arial;
+    content: "\201C";
+    color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    right: 510px;
+    top:-5px;
+  }
+
+  #quoteText::after{
+    font-family:Arial;
+    content: '\201d';
+      color:#78C0A8;
+    font-size:4em;
+    position: absolute;
+    left: 510px;
+    bottom: 50px;
+  }
+
+  .card p{
+    color: #088ff0;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+  }
+  .card p::before{
+    content: "-";
+    margin-right: 5px;
+  }
+
+  .card button{
+    width: 120px;
+    height: 45px;
+    font-size: 16px;
+    border: none;
+    background: #DF2E2E;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    color: #fff;
+  }
