@@ -1,0 +1,19 @@
+body {
+    background: #88d3e8;
+}
+
+.container {
+    position: relative;
+    top: 100px;
+  }
+  
+  .card{
+    background: #eff3f5;
+    width: 450px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+   font-family: 'Poppins', sans-serif;
+  }
